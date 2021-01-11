@@ -1,0 +1,8 @@
+.main-section-button{
+  background-color: rgb(109, 163, 163);
+  padding:0.4em 2.7em;
+  color:whitesmoke;
+  font-size: 1.3em;
+  border-radius: 1em;
+  transition: all 0.4s;
+}

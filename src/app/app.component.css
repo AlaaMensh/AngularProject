@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap');
+
+body{
+  margin:0;
+  padding: 0;
+}
+.hero{
+  /* width: 100%; */
+
+}
+.navbar{
+  font-family: 'Domine', serif;
+}
+.footer-content{
+  font-size: 1.4em;
+color:whitesmoke
+
+}
+.green-background{
+  color:rgb(45, 100, 45);
+}
+.footer-icons{
+  font-size: 1.5em;
+
+  color: rgb(60, 117, 60);
+}
+.footer-icons i{
+  margin: auto 0.5em;
+}
+.nav-button{
+font-size: 1.2em;
+font-weight: bold;
+
+transition: all 0.5s;
+
+}
+.nav-button:hover{
+  background-color: rgb(84, 144, 144);
+
+}
+.nav-login{
+  font-size: 1.2em;
+  font-weight: bold;
+
+  transition: all 0.5s;
+  padding:auto 3em;
+  background-color: rgb(137, 196, 196) ;
+  border-radius: 1em;
+  width: 5em;
+  color:whitesmoke;
+}
+.nav-login:hover{
+  background-color: rgb(100, 167, 167) ;
+}
+.na{
+  padding:auto 2em;
+  margin:auto 0.3em;
+
+  /* background-color: yellow; */
+}
+/* .nav-login {
+  padding:0.1em 3em;
+  background-color: brown;
+} */
+

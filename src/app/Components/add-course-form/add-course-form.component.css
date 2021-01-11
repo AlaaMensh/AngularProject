@@ -1,0 +1,11 @@
+.container{
+  background: url("//educlever.beplusthemes.com/university/wp-content/uploads/2018/09/edu-titlebar-1.jpg") no-repeat center center / cover, #ebebeb;
+}
+.form-background{
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 2px solid rgb(3, 185, 3);
+  border-radius: 2em;
+  color:whitesmoke;
+  font-size: 1.3em;
+  font-weight: bold;
+}

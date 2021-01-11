@@ -1,0 +1,40 @@
+.mainImage{
+  height: 50vh;
+  color:whitesmoke;
+  background: url(//educlever.beplusthemes.com/university/wp-content/uploads/2018/09/edu-titlebar-1.jpg) no-repeat center center / cover, #ebebeb;
+}
+.spantext{
+  font-size: 1.1em;
+}
+.spanheader{
+  display: block;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.course-details .col-lg-3 , .col2{
+
+  border-right: 3px solid rgb(221, 211, 211);
+  text-align: center;
+}
+.padding{
+  /* padding:0 2em; */
+}
+.background_white{
+background-color: whitesmoke;
+}
+.about-text{
+  font-size: 1.2em;
+}
+.border_gray{
+  background-color: rgb(187, 178, 178);
+  border-radius: 1em;
+}
+.border-radius{
+  border-radius: 1em;
+}
+.enroll_button{
+  font-size: 1.3em;
+}
+.img-text{
+  background-color: rgba(0, 0, 0, 0.4);
+}

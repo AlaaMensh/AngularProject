@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+
+    <div class="container">
+      <div class="row justify-content-center mt-5 p-5 ">
+        <div class="col-md-6 col-12 form-background">
+          <form class="p-4">
+            <div class="form-group">
+              <label for="id">ID:</label>
+              <input type="number" #id class="form-control" id="id" aria-describedby="emailHelp" placeholder="Enter Course ID">
+              <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <div class="form-group">
+              <label for="name">Course Name:</label>
+              <input type="text" #name class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter CourseName">
+              <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <div class="form-group">
+              <label for="Instructor">Instructor:</label>
+              <input type="text" #instructor class="form-control" id="Instructor" aria-describedby="emailHelp" placeholder="Enter Instructor Name">
+              <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <div class="form-group">
+              <label for="price">Price:</label>
+              <input type="price" #price class="form-control" id="price" aria-describedby="emailHelp" placeholder="Enter Price">
+              <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <div class="form-group">
+              <label for="chapter">Chapters</label>
+              <input type="number" #chapters class="form-control" id="chapter" placeholder="Enter Course Chapters">
+            </div>
+            <div class="form-group">
+              <label for="lesson">Lesson:</label>
+              <input type="number" #lesson class="form-control" id="lesson" placeholder="Enter Course Lesson">
+            </div>
+            <button type="submit" class="btn btn-danger" (click)="addCourse(id.value ,name.value , instructor.value , price.value , chapters.value, lesson.value)">Add Course</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>

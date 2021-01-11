@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="card" style="width: 100%;">
+    <img class="card-img-top" src="https://educlever.beplusthemes.com/high-school/wp-content/uploads/2018/10/course_huge3.jpg" alt="Card image cap" width="100%">
+    <div  *ngIf="course.price>0" class="freeSpan">
+        <span>Free</span>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Name :  {{course.name}}</h5>
+      <p class="card-text">Instructor : {{course.instructor}}</p>
+      <p class="card-text">chapters : {{course.chapter}}</p>
+      <div class="row CardButtons justify-content-center ">
+        <span class="" (click) ="deleteCourse(course)" ><i class="fa fa-trash deleteButton "></i></span>
+        <a routerLinkActiveOptions="{exact:true}" class="btn  ml-4 main-section-button"  routerLink="{{course.id}}" >Get More Details</a>
+      </div>
+      <!-- <button class="btn ml-2 "  >Delete</button> -->
+    </div>
+  </div>
+
+</body>
+</html>

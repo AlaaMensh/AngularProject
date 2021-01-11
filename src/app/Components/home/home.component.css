@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap');
+
+body,html{
+  margin: 0;
+  padding: 0;
+  font-family: 'Dosis';
+}
+
+
+/* ///////////////// mainSection////////////////////////// */
+.main-section{
+  margin: 0;
+  background-image: url("http://educlever.beplusthemes.com/high-school/wp-content/uploads/2019/04/slider1.jpg") ;
+  height: 85vh;
+   /*   background-size: cover; */
+  background-position: cover;
+  background-position: center ;
+  animation: shrink 4s infinite alternate;
+  /* background-color: yellow; */
+
+}
+@keyframes shrink {
+  0% {
+    background-size: 110% 110%;
+  }
+  100% {
+    background-size: 100% 100%;
+  }
+}
+
+
+.main-section-text{
+  padding:2em;
+
+}
+.main-section-text-header{
+  font-size: 2.1em;
+  font-weight: bolder;
+  color: white;
+}
+.main-section-text-para{
+  color:white;
+  font-size: 1.2em;
+}
+.main-section div{
+  background: url("https://educlever.beplusthemes.com/high-school/wp-content/uploads/2019/04/slider-bg.png");
+}
+.main{
+  background-color: yellow;
+  padding:1em;
+}
+.main:hover{
+  background-color: yellow;
+}
+.main-section-button{
+  background-color: rgb(109, 163, 163);
+  padding:0.4em 2.7em;
+  color:whitesmoke;
+  font-size: 1.3em;
+  border-radius: 1em;
+  transition: all 0.4s;
+}
+.main-section-button:hover{
+  background-color: rgb(84, 144, 144);
+}
+
+/* /////////////////////////////courses Section/////////////////////////////////// */
+.courses-section-header{
+  font-size: 3em;
+  font-weight: bolder;
+}
+.courses-section-para{
+  font-size: 1.7em;
+  color: rgb(8, 8, 82);
+}
+.courses-section-text{
+  margin-top: 3em;
+  color: rgb(8, 8, 82);
+}
+
+/* ////////////////////////////////// */
+.grad-image{
+
+padding:1em;
+font-size: 2.7em;
+color: rgb(8, 8, 82);
+}
+.grad-image img{
+  width: 20%;
+}
+.grad-image p{
+  margin-top: 0.5em;
+}
+/* /////////////////////////////////////////// */
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+}
+.card{
+  transition: all 0.3s;
+  margin: 2em auto;
+  box-shadow:  2px 12px 30px rgb(190, 183, 183);
+  font-family: 'Domine', serif;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.card:hover{
+
+  box-shadow:   6px 40px 40px rgb(226, 220, 220);
+}
+.card-body{
+  border-radius: 3em;
+  padding: 1em;
+  font-size: 1.3em;
+  font-family: "Dosis";
+  color: rgb(8, 8, 82);
+}
+.card img{
+  overflow: hidden;
+}
+.freeSpan{
+  position: absolute;
+  background: #94cac5;
+  width: 130px;
+  top: 45%;
+  right: 0;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 50px;
+  border-radius: 30px 0px 0px 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.deleteButton{
+  /* background-color:#94cac5 ; */
+
+  color:rgb(175, 165, 165);
+  font-size: 1.7em;
+}
+.cardIcons{
+margin-top: 1em;
+}
+.cardIcons i{
+  color: rgb(155, 148, 148);
+  font-size: 1.4em;
+  margin: 1em;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.cardIcons i:hover{
+  color: rgb(8, 8, 82);
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .freeSpan{
+    top:12em;
+    /* background-color: yellow; */
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+  .freeSpan{
+    top:10em;
+    /* background-color: yellow; */
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .freeSpan{
+    top:13em;
+    /* background-color: yellow; */
+  }
+}
+@media only screen and (max-width: 600px) {
+  .freeSpan{
+    top:10em;
+    /* background-color: yellow; */
+  }
+
+}
+
+
+
+/* //////////////////////////////////////// */
